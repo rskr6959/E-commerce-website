@@ -1,0 +1,67 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh; 
+    padding-top: 0; 
+}
+
+.headerStyle{
+    font-family: ui-sans-serif;
+    font-size: 2rem;
+
+}
+
+.subtextStyle{
+    font-family: ui-sans-serif;
+    font-size: 1rem;
+}
+
+.buttonStyle{
+    font-family: ui-sans-serif;
+    background-color: #cc0e0ebd;
+    color: black;
+    border: 2px solid #cc0e0ebd;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10%;
+}
+
+.cart {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .cartItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width:50rem;
+    
+  }
+
+  .removeStyle{
+    background-color: #cc0e0ebd;
+    font-family: ui-sans-serif;
+  }
+
+  .checkoutButton{
+    margin-top: 2rem;
+    padding: 0.2rem;
+    background-color: #cc0e0ebd;
+  }
+
+  .cardCounter::-webkit-outer-spin-button,
+  .cardCounter::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cardCounter {
+  -moz-appearance: textfield;
+}

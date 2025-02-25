@@ -1,0 +1,82 @@
+.headerDiv {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: white; 
+    padding: 1rem; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+
+.headerStack{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.logo{
+    font-family: ui-sans-serif;
+    color:#cc0e0ebd;
+    font-size: 1.5rem;
+
+}
+
+.title{
+    font-family: ui-sans-serif;
+    color:#cc0e0ebd;
+    font-size: 2rem;
+    
+    animation: zoomInOut 2s infinite ease-in-out; /* Infinite loop for zooming */
+}
+
+/* Keyframes for Zoom Animation */
+@keyframes zoomInOut {
+  0%, 100% {
+    transform: scale(1); /* Original size */
+  }
+  50% {
+    transform: scale(1.2); /* Zoomed-in size */
+  }
+}
+
+
+
+.menuStack{
+    align-items: center;
+    justify-content: center;
+    margin-top:-4rem;
+}
+
+.buttonStyles{
+    border: none;
+    background-color:#cc0e0ebd;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: ui-sans-serif;
+    color:white;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.buttonStyles:hover {
+    background-color: #c0392b; /* Darker shade on hover */
+    color: #fff; /* Ensure text remains white */
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+
+.avatar{
+    border-radius: 50%;
+    background-color: #cc0e0ebd;
+    padding: 0.8rem;
+    cursor: default;
+    font-family: ui-sans-serif;
+    color:white;
+    width:3rem;
+    
+}
+
+  
+  

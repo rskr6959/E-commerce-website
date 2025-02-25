@@ -1,0 +1,67 @@
+
+.backgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    background-repeat: repeat 0.1sec; /* Send video to the background */
+  }
+
+.loginContainer{
+    background-color:#cc0e0ebd;
+    height: 20rem;
+    width: 30rem;
+    margin-left:50rem;
+    margin-top:11rem;
+    border-radius: 5%;
+
+}
+
+.itemsStack{
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    padding-top: 2rem;
+
+}
+
+.headerText{
+    width: 20rem;
+    font-family: ui-sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 1.1rem;
+    color:white;
+}
+.nameStyle::placeholder{
+    color:white;
+}
+
+.nameStyle{
+    width: 20rem;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-bottom: 2px solid beige;
+    font-family: ui-sans-serif;
+    
+    margin-bottom: 1rem;
+}
+
+.nameStyle:focus {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+  }
+
+  .loginbuttonStyle{
+    font-family: ui-sans-serif;
+    padding: 0.2rem;
+    color: black;
+    background-color:beige;
+    width: 20rem;
+
+  }
