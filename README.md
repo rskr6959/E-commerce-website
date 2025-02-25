@@ -1,29 +1,8 @@
 PopShop-
 PopShop is a web-based e-commerce application that allows users to browse products, add them to a cart, and complete their purchases seamlessly. This repository contains all the necessary files for deploying and managing the application.
 
-Screenshots-
 
-Loginpage:
 
-![alt text](image.png)
-Homepage:
-
-![alt text](image-1.png)
-Productspage:
-
-![alt text](image-2.png)![alt text](image-3.png)
-Cartpage:
-
-![alt text](image-4.png)![alt text](image-8.png)
-Checkout:
-
-![alt text](image-5.png)
-Payment-successfull:
-
-![alt text](image-6.png)
-Continueshopping:
-
-![alt text](image-7.png)
 
 Features-
 1. Login Page (User Authentication):
